@@ -44,4 +44,27 @@ public class Course {
 		}
 		this.courseCode = courseCode;
 	}
+	// Getters
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+	
+	public String getCourseCode() {
+		return courseCode;
+	}
+
+	@Override
+	public String toString() {
+		return "Course Name: " + name + 
+				", description: " + description + 
+				", courseCode: " + courseCode;
+	}
 }
