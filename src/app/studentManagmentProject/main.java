@@ -15,7 +15,6 @@ import app.studentManagmentProject.model.Student;
 import app.studentManagmentProject.service.impl.CourseService;
 import app.studentManagmentProject.service.impl.StudentDBServiceImpl;
 import app.studentManagmentProject.util.DBConnection;
-import app.studentManagmentProject.main;
 
 public class main {
 static Scanner scanner = new Scanner(System.in);
